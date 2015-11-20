@@ -1,0 +1,16 @@
+if name == 'id':
+CacheID = value
+elif w1.tag == "coord":
+if w1.keys():
+for name,value in w1.items():
+if name == "lat":
+Lat = value
+elif name == "lon":
+Lon = value
+elif w1.tag == "type":
+GType = w1.text
+elif w1.tag == "link":
+if w1.keys():
+for name, value in w1.items():
+Info = value
+Link = w1.text
